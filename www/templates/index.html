@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timmy</title>
+
+    <link rel="stylesheet" href="../styles/styleHome.css" />
+
+    <!--Ícones-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <img src="../images/Timmy.png" class="logo" />
+
+    <button class="volume-button" onclick="volume()" id="buttonVolume">
+      <div id="iconeVolume">
+        <i class="fa-solid fa-sliders"></i>
+      </div>
+
+      <div class="desligado" id="painelVolume">
+        <label for="volume" class="volume">Volume:</label>
+        <input type="range" class="inputVolume" min="0" max="100" value="100" />
+      </div>
+    </button>
+
+    <div class="circle" id="circle"></div>
+
+    <div class="box">
+      <h2 class="title">Comando:</h2>
+      <p class="text" id="text"></p>
+      <p class="status" id="status">Desativado</p>
+    </div>
+
+    <div class="buttons">
+      <button class="play" onclick="ativarAssistente()" id="botaoPlay">
+        <i class="fa-solid fa-play" id="iconPlay"></i>
+      </button>
+      <button class="desativado" onclick="trocarMic()" id="botaoMic">
+        <i class="fa-solid fa-microphone" id="iconMic"></i>
+      </button>
+    </div>
+
+    <script type="text/javascript" src="/eel.js"></script>
+    <script src="../javascript/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+# Assistente Virtual em Python
+
+Este projeto é um assistente virtual com comandos de voz. Ele pode executar tarefas como tocar músicas, dizer a hora, informar o clima, criar lembretes, entre outras funções.
+
+‼️‼️Quando aparecer alguma coisa para digitar digite apenas o que está dentro das aspas, apenas o que está dentro, ignore as aspas
+
+## Pré-requisitos
+
+- Python 3.13.3 ou superior instalado;
+- Python configurado no terminal;
+- Acesso à internet para comandos que usam APIs externas(Como IA, clima, notícias, entre outros...);
+- Microfone funcionando;
+
+=--=--=-- Vamos começar a configurar ⚙️ =--=--=--
+
+## Instalação
+
+✅ ‼️ Ao instalar o Python, marque a opção "Add Python to PATH" na primeira tela da instalação.
+
+1. Instale o python abrindo (clique duas vezes) o arquivo: 'python-3.13.3-amd64.exe' dentro da pasta 'downloads' (pode ficar tranquilo que este trabalho é livre de qualquer vírus ou malware, ele é totalmente código aberto)
+
+Para saber se o download funcionou:
+Aperte 'windows' + 'r' e digite cmd, dentro do prompt de comando digite: "python"
+
+Se aparecer algo como:
+    'Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
+    Type "help", "copyright", "credits" or "license" for more information.', 
+Está tudo certo.
+
+❗ Caso o comando não funcione, é provável que o Python não esteja no PATH do sistema. Para resolver abra o arquivo: 'python-3.13.3-amd64.exe' dentro da pasta: 'downloads' e clique em uninstall
+Depois, abra o arquivo denovo e faça a instalação com bastante atenção para marcar❗"Add Python to PATH"❗na primeira tela da instalação.
+
+🫡 É fortemente recomendado que baixe o 'VsCode' antes de começar, pois podem aparecer bugs e será mais difícil de arrumá-los pelo terminal
+Caso não tenha ele instalado, dentro da pasta da 'downloads' tem o arquivo de instalação dele.
+
+1.1 Selecionar o python como interpretador
+
+Dentro do Vscode aperte: 'ctrl' + 'shift' + 'x' e procure pelo pacote 'Python' da Microsoft
+
+Agora, aperte 'f1' e digite: 'Select Interpreter', e clique na opção 'Python: Select Interpreter'. Depois disso irá aparecer as versões do python na sua máquina, selecione a versão 'Python 3.13.3'
+
+2. Crie um ambiente virtual ❗CASO NÃO TENHE UM ❗(para saber se tem verifique se existe a pasta 'venv' dentro da pasta do projeto):
+
+Para criar o ambiente, aperte 'f1' e digite 'Create Environment', clique na opção: 'Python: Create Environment'
+Depois clique na opção 'Venv', depois em 'Python 3.13.3' e por último marque a caixa requirements.txt. Espere terminar de instalar tudo e seu ambiente virtual estará completo!
+
+5. Configure as APIs e o seu assistente
+
+Dentro do arquivo '.env.example', preencha-o com o que está sendo pedido, lembre-se de preencher tudo, e depois renomeie o '.env.example' para '.env'!
+
+6. 
+Agora está tudo pronto, para usar o assistente, execute 'main.py', dentro do VsCode. Aproveite o uso!
